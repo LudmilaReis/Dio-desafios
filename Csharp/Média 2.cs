@@ -11,7 +11,7 @@ using System;
 
 namespace Start
 {
-    class Program
+    class Media2
     {
         static void Main(string[] args)
         {

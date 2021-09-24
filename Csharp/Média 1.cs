@@ -9,7 +9,7 @@ Calcule e imprima a variável MEDIA conforme exemplo abaixo, com 5 dígitos apó
 *****************************************/
 using System; 
 
-class URI {
+class Media {
 
     static void Main(string[] args) { 
 
