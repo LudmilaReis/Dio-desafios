@@ -9,20 +9,22 @@ A entrada é composta por um único inteiro N (0 < N ≤ 106) representando quan
 Saída
 A saída é composta por todos "Ho" que Papai Noel deve falar separados por um espaço. Após o último "Ho" deve ser apresentado um "!" encerrando o programa.
  */
- using System;
+import java.util.Scanner;
 
-namespace HoHoHo {
-    class Program {
-        static void Main(string[] args) {
-           
-            int N = int.Parse(Console.ReadLine());
-            for (int i = 0; i < N; i++) {
-              if(i < (N-1)){
-                Console.Write("Ho ");
-                Console.WriteLine("Ho!");
-              }
-                
+public class HoHoHo {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int N = entrada.nextInt();
+
+          for (int i = 0; i < N; i++) {
+            if(i < (N-1)){
+              System.out.print("Ho "); 
+            }else{
+              System.out.println("Ho!");
+          
             }
         }
+        
     }
 }

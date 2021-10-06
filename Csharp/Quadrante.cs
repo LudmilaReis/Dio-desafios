@@ -30,8 +30,7 @@ class Quadrante {
                 else if (X < 0 && Y < 0)
                     Console.WriteLine("terceiro");//tudo negativo 
                 else if (X < 0 && Y > 0)
-                    Console.WriteLine("segundo"); //x negativo, y positivo             //Complete o código nos espaços em branco
-            }
+                    Console.WriteLine("segundo"); //x negativo, y positivo           
             Console.ReadLine();
         }
 
